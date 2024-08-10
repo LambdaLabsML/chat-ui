@@ -28,7 +28,7 @@ npm run dev -- --open
 From your local machine:
 ```bash
 # Port forwarding
-ssh -i ~/.ssh/ml.pem -L 5173:localhost:5173 ubuntu@165.1.78.208
+ssh -i ~/.ssh/ml.pem -L 5173:localhost:5173 ubuntu@<hosting-server-ip>
 
 # Visit chat-ui at 
 http://localhost:5173/
